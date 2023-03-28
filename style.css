@@ -1,0 +1,77 @@
+:root {
+  --effect: hover 1s linear infinite;
+}
+*{
+   margin:0;
+}
+
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: #FFFBFF;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  text-align: center;
+}
+
+p {
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 4em;
+  font-family: arial;
+  font-weight: 600;
+  transform: scale(.5);
+  color: #F2AA4D;
+}
+
+p:nth-child(1) {
+  animation: var(--effect);
+}
+
+p:nth-child(2) {
+  animation: var(--effect) .125s;
+}
+
+p:nth-child(3) {
+  animation: var(--effect) .25s;
+}
+
+p:nth-child(4) {
+  animation: var(--effect) .375s;
+}
+
+p:nth-child(5) {
+  animation: var(--effect) .5s;
+}
+
+p:nth-child(6) {
+  animation: var(--effect) .675s;
+}
+
+p:nth-child(7) {
+  animation: var(--effect) .75s;
+}
+
+@keyframes hover {
+  0% {
+    transform: scale(.5);
+    color: #F2AA4D;
+  }
+
+  20% {
+    transform: scale(1);
+    color: #F2AA4D;
+  }
+
+  50% {
+    transform: scale(.5);
+    color: #F2AA4D;
+  }
+
+
+}
