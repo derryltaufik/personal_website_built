@@ -66113,7 +66113,7 @@ return A.ex(A.a([b,B.eK,A.hL(!1,s,!0,A.bk(c,s,s,r==null?s:r.kh(B.y,A.kg(s,s,s).d
 G(a){var s=this
 return A.e8(A.a([s.vl(a,B.AZ,"derryldeveloper@gmail.com",new A.YQ()),B.aW,s.vl(a,B.A6,"github.com/derryltaufik",new A.YR()),B.aW,s.vl(a,B.A9,"linkedin.com/in/derryl-taufik",new A.YS())],t.p),s.c,B.K)}}
 A.YQ.prototype={
-$0(){return A.Qy(A.am1("derryldeveloper@gmail.com","subject=Default Subject&body=Default body","mailto"))},
+$0(){return A.Qy(A.am1("derryldeveloper@gmail.com","subject=&body=","mailto"))},
 $S:0}
 A.YR.prototype={
 $0(){return A.Qy(A.qm("https://www.github.com/derryltaufik",0,null))},
